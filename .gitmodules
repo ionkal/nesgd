@@ -1,0 +1,3 @@
+[submodule "private-files"]
+	path = private-files
+	url = https://github.com/ionkal/private-submodule.git
