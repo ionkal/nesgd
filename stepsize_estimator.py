@@ -30,7 +30,6 @@ def estimate_parameters(X, y, grad_fn, lmo_fn, dual_norm_fn, norm_type, L, batch
         raise ValueError("x_samplers is empty, check input data")
     x_samples = [np.array([sampler() for sampler in x_samplers]) for _ in range(num_samples)]
     print(f"x_samples: {x_samples}")
-    # Initialize lists to store expectations
     deviations = []
     ratios = []
 

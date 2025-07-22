@@ -8,7 +8,7 @@ def fw_sgd_until_convergence(X, y, norm_type, initial_point, L, loss_fn, grad_fn
     best_loss = float('inf')
     no_improve_count = 0
     
-    c = 1.0  # Use c = 1 as requested
+    c = 1.0 
     step_size = c * theta  # First step size
     
     # Track average E[delta f(x_k)] for neighborhood check
